@@ -47,13 +47,13 @@
 }
 .snake {
     background-color: rgb(77, 36, 107);
-    border-radius: 50%; /* Round segments */
-    border: 1px solid #3d1f5b; /* Dark border for segments */
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.5); /* Shadow for depth */
+    border-radius: 50%;
+    border: 1px solid #3d1f5b;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
 }
 
 .food {
     background: radial-gradient(circle, red, yellow);
     border: 2px solid black;
-    border-radius: 50%; /* Make the food round */
+    border-radius: 50%;
 }
