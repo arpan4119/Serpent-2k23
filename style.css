@@ -45,12 +45,15 @@
     transform: scale(1.02);
     border-radius: 7px;
 }
-.snake{
+.snake {
     background-color: rgb(77, 36, 107);
-    border-radius: 4px;
+    border-radius: 50%; /* Round segments */
+    border: 1px solid #3d1f5b; /* Dark border for segments */
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5); /* Shadow for depth */
 }
-.food{
-    background: linear-gradient(red, yellow);
-    border: .17vmin solid black;
-    border-radius: 8px;
+
+.food {
+    background: radial-gradient(circle, red, yellow);
+    border: 2px solid black;
+    border-radius: 50%; /* Make the food round */
 }
